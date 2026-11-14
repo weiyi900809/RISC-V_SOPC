@@ -59,7 +59,6 @@ ZedBoard Programmable Logic
         ├── Timer
         ├── UART
         ├── GPIO
-        ├── SPI
         └── CRC32 Peripheral
             ├── RIB Slave Interface
             ├── Memory-Mapped Registers
