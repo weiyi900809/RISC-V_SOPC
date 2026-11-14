@@ -23,7 +23,7 @@
 
 ### tinyriscv SoC
 
-CPU 採用 RV32IM 指令集與三級管線架構（IF → ID → EX），透過原生 RIB bus 連接 ROM、RAM、Timer、UART、GPIO 與 SPI。
+CPU 採用 RV32IM 指令集與三級管線架構（IF → ID → EX），透過原生 RIB bus 連接 ROM、RAM、Timer、UART 與 GPIO。
 
 本專案在既有架構上新增 CRC32 peripheral，並擴充對應的位址解碼與周邊連接，使 CPU 能透過記憶體映射暫存器存取 CRC32 模組。
 
